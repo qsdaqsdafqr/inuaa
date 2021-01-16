@@ -21,7 +21,7 @@ headers = {
     'Accept': 'application/json, text/javascript, */*; q=0.01',
     'Sec-Fetch-Dest': 'empty',
     'X-Requested-With': 'XMLHttpRequest',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36',
+    'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 10; TAS-AN00 Build/HUAWEITAS-AN00)',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'Origin': 'https://m.nuaa.edu.cn',
     'Sec-Fetch-Site': 'same-origin',
@@ -32,8 +32,8 @@ headers = {
 }
 
 
-# 定位的id也会变，不用管了 created时间戳，直接抓的包
-post_data = 'sfzhux=0&zhuxdz=&szgj=&szcs=&szgjcs=&sfjwfh=0&sfyjsjwfh=0&sfjcjwfh=0&sflznjcjwfh=0&sflqjkm=0&jkmys=0&sfjtgfxdq=0&geo_api_info=%7B%22type%22%3A%22complete%22%2C%22info%22%3A%22SUCCESS%22%2C%22status%22%3A1%2C%22XDa%22%3A%22jsonp_951333_%22%2C%22position%22%3A%7B%22Q%22%3A31.94271%2C%22R%22%3A118.78832%2C%22lng%22%3A118.78832%2C%22lat%22%3A31.94271%7D%2C%22message%22%3A%22Get+ipLocation+success.Get+address+success.%22%2C%22location_type%22%3A%22ip%22%2C%22accuracy%22%3Anull%2C%22isConverted%22%3Atrue%2C%22addressComponent%22%3A%7B%22citycode%22%3A%22025%22%2C%22adcode%22%3A%22320115%22%2C%22businessAreas%22%3A%5B%7B%22name%22%3A%22%E5%BC%80%E5%8F%91%E5%8C%BA%22%2C%22id%22%3A%22320115%22%2C%22location%22%3A%7B%22Q%22%3A31.925973%2C%22R%22%3A118.80980399999999%2C%22lng%22%3A118.809804%2C%22lat%22%3A31.925973%7D%7D%5D%2C%22neighborhoodType%22%3A%22%22%2C%22neighborhood%22%3A%22%22%2C%22building%22%3A%22%22%2C%22buildingType%22%3A%22%22%2C%22street%22%3A%22%E8%83%9C%E5%A4%AA%E8%B7%AF%22%2C%22streetNumber%22%3A%22162%E5%8F%B7%22%2C%22country%22%3A%22%E4%B8%AD%E5%9B%BD%22%2C%22province%22%3A%22%E6%B1%9F%E8%8B%8F%E7%9C%81%22%2C%22city%22%3A%22%E5%8D%97%E4%BA%AC%E5%B8%82%22%2C%22district%22%3A%22%E6%B1%9F%E5%AE%81%E5%8C%BA%22%2C%22township%22%3A%22%E7%A7%A3%E9%99%B5%E8%A1%97%E9%81%93%22%7D%2C%22formattedAddress%22%3A%22%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82%E6%B1%9F%E5%AE%81%E5%8C%BA%E7%A7%A3%E9%99%B5%E8%A1%97%E9%81%93%E8%83%9C%E5%A4%AA%E8%B7%AF%E5%8D%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%E5%B0%86%E5%86%9B%E8%B7%AF%E6%A0%A1%E5%8C%BA%22%2C%22roads%22%3A%5B%5D%2C%22crosses%22%3A%5B%5D%2C%22pois%22%3A%5B%5D%7D&date=2020{1:02}{2:02}&address=%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82%E6%B1%9F%E5%AE%81%E5%8C%BA%E7%A7%A3%E9%99%B5%E8%A1%97%E9%81%93%E8%83%9C%E5%A4%AA%E8%B7%AF%E5%8D%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%E5%B0%86%E5%86%9B%E8%B7%AF%E6%A0%A1%E5%8C%BA&area=%E6%B1%9F%E8%8B%8F%E7%9C%81+%E5%8D%97%E4%BA%AC%E5%B8%82+%E6%B1%9F%E5%AE%81%E5%8C%BA&province=%E6%B1%9F%E8%8B%8F%E7%9C%81&city=%E5%8D%97%E4%BA%AC%E5%B8%82&fxzrwjtw=&fxjrcjtw=1&fxjrzjtw=&sfzx=1&sfcyglq=0&sfcxtz=0&uid=24113&created={0}&is_fx_log=1&id=9358620&gwszdd=&sfyqjzgc=&jcqzrq=&sfjcqz=&jrsfqzys=&jrsfqzfy=&szsqsfybl=0&sfsqhzjkk=&sqhzjkkys=&sfygtjzzfj=&gtjzzfjsj=&sftjwz=0&sftjhb=0&sfjcwhry=0&sfjchbry=0&ismoved=0'
+# 定位的id也会变，这个最好自己抓个包填一下
+post_data = 'sfzhux=0&zhuxdz=&szgj=&szcs=&szgjcs=&sfjwfh=0&sfyjsjwfh=0&sfjcjwfh=0&sflznjcjwfh=0&sflqjkm=4&jkmys=1&sfjtgfxdq=0&tw=3&sfcxtz=0&sfjcbh=0&sfcxzysx=0&qksm=&sfyyjc=0&jcjgqr=0&remark=&address=%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82%E7%A7%A6%E6%B7%AE%E5%8C%BA%E5%A4%A7%E5%85%89%E8%B7%AF%E8%A1%97%E9%81%93%E5%B0%9A%E4%B9%A6%E5%B7%B7%E9%87%91%E9%99%B5%E5%B0%9A%E5%BA%9C&geo_api_info=%7B%22type%22%3A%22complete%22%2C%22info%22%3A%22SUCCESS%22%2C%22status%22%3A1%2C%22%24Da%22%3A%22jsonp_298388_%22%2C%22position%22%3A%7B%22Q%22%3A32.02628%2C%22R%22%3A118.80642%2C%22lng%22%3A118.80642%2C%22lat%22%3A32.02628%7D%2C%22message%22%3A%22Get+ipLocation+success.Get+address+success.%22%2C%22location_type%22%3A%22ip%22%2C%22accuracy%22%3Anull%2C%22isConverted%22%3Atrue%2C%22addressComponent%22%3A%7B%22citycode%22%3A%22025%22%2C%22adcode%22%3A%22320104%22%2C%22businessAreas%22%3A%5B%7B%22name%22%3A%22%E5%A4%A7%E5%85%89%E8%B7%AF%22%2C%22id%22%3A%22320104%22%2C%22location%22%3A%7B%22Q%22%3A32.025771%2C%22R%22%3A118.80886599999997%2C%22lng%22%3A118.808866%2C%22lat%22%3A32.025771%7D%7D%5D%2C%22neighborhoodType%22%3A%22%22%2C%22neighborhood%22%3A%22%22%2C%22building%22%3A%22%22%2C%22buildingType%22%3A%22%22%2C%22street%22%3A%22%E5%B0%9A%E4%B9%A6%E5%B7%B7%22%2C%22streetNumber%22%3A%224%E5%8F%B7%22%2C%22country%22%3A%22%E4%B8%AD%E5%9B%BD%22%2C%22province%22%3A%22%E6%B1%9F%E8%8B%8F%E7%9C%81%22%2C%22city%22%3A%22%E5%8D%97%E4%BA%AC%E5%B8%82%22%2C%22district%22%3A%22%E7%A7%A6%E6%B7%AE%E5%8C%BA%22%2C%22township%22%3A%22%E5%A4%A7%E5%85%89%E8%B7%AF%E8%A1%97%E9%81%93%22%7D%2C%22formattedAddress%22%3A%22%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82%E7%A7%A6%E6%B7%AE%E5%8C%BA%E5%A4%A7%E5%85%89%E8%B7%AF%E8%A1%97%E9%81%93%E5%B0%9A%E4%B9%A6%E5%B7%B7%E9%87%91%E9%99%B5%E5%B0%9A%E5%BA%9C%22%2C%22roads%22%3A%5B%5D%2C%22crosses%22%3A%5B%5D%2C%22pois%22%3A%5B%5D%7D&area=%E6%B1%9F%E8%8B%8F%E7%9C%81+%E5%8D%97%E4%BA%AC%E5%B8%82+%E7%A7%A6%E6%B7%AE%E5%8C%BA&province=%E6%B1%9F%E8%8B%8F%E7%9C%81&city=%E5%8D%97%E4%BA%AC%E5%B8%82&sfzx=0&sfjcwhry=0&sfjchbry=0&sfcyglq=0&gllx=&glksrq=&jcbhlx=&jcbhrq=&ismoved=0&bztcyy=&sftjhb=0&sftjwh=0&sftjwz=0&sfjcwzry=0&jcjg='
 
 
 
@@ -94,7 +94,7 @@ def sign(m, d, user, smtp_host, mail_username, mail_password):
                 print('打卡成功')
                 if user['receiver_mail'] != '':
                     send_mail(mail_username, mail_password, smtp_host,
-                              user['receiver_mail'], '打卡成功', '打卡成功', user['name'], '打卡姬')
+                              user['receiver_mail'], user['name']+'校外打卡成功', '校外打卡成功', user['name'], '老王')
                 return True
             else:
                 print('打卡失败，尝试重新登陆')
@@ -105,7 +105,7 @@ def sign(m, d, user, smtp_host, mail_username, mail_password):
             # print(r.request.body)
     if user['receiver_mail'] != '':
         send_mail(mail_username, mail_password, smtp_host,
-                  user['receiver_mail'], '打卡失败', '打卡事变', user['name'], '打卡姬')
+                  user['receiver_mail'], user['name']+'校外打卡GG', '校外打卡GG', user['name'], '老王')
     return False
 
 
@@ -144,10 +144,10 @@ def main():
             for user in to_sign_list[:]:
                 print('**********' + user['name'] + '**********')
                 if sign(t.tm_mon, t.tm_mday, user, smtp_host, mail_username, mail_password):
-                    print('Sign for {} on {}.{} successfully!'.format(
+                    print('{}邮箱 {}月{}日登陆成功!'.format(
                         user['name'], t.tm_mon, t.tm_mday))
                 else:
-                    print('Sign for {} on {}.{} failed!'.format(
+                    print('{}邮箱 {}月{}日登陆失败!'.format(
                         user['name'], t.tm_mon, t.tm_mday))
                     new_list.append(user)
             to_sign_list = new_list
@@ -159,19 +159,19 @@ def main():
         
             print('----------重新打卡尝试----------')
             # 给每个失败的人打卡
-            new_list = []
+            new_list = []   # 未完成打卡的暂时放这里
             for user in to_sign_list[:]:
                 print('**********' + user['name'] + '**********')
                 if sign(t.tm_mon, t.tm_mday, user, smtp_host, mail_username, mail_password):
-                    print('Sign for {} on {}.{} successfully!'.format(
+                    print('{}邮箱 {}月{}日登陆成功!'.format(
                         user['name'], t.tm_mon, t.tm_mday))
                 else:
-                    print('Sign for {} on {}.{} failed!'.format(
+                    print('{}邮箱 {}月{}日登陆失败!'.format(
                         user['name'], t.tm_mon, t.tm_mday))
                     new_list.append(user)
             to_sign_list = new_list
         # else: 都打完了
-        time.sleep(1)
+        time.sleep(2)
 
 if __name__ == '__main__':
     main()
