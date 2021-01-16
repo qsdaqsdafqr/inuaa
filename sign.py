@@ -114,7 +114,7 @@ def main():
     last_post = 10086   # 最后一次签到的日期
     
     # 读取配置文件
-    with open('config.json', 'r') as f:
+    with open('config.json', 'r',encoding='UTF-8') as f:
         config = json.loads(f.read())
     smtp_host = config['smtp_host']
     mail_password = config['mail_password']
