@@ -89,7 +89,7 @@ vim config.json
 后台运行程序
 
 ``` bash
-nohup python3 sign.py >out.txt 2>&1 &
+nohup python3 -u sign.py >out.log 2>&1 &
 ```
 
 之后只要主机一直开机就会每天打卡辣。
