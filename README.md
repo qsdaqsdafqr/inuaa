@@ -1,8 +1,9 @@
-# i南航自动打卡小工具
+# i南航校外自动打卡小工具
+（修改至[zombie12138/inuaa](https://github.com/zombie12138/inuaa))
 
 ## Description
 
-自动进行每天i南航校内打卡，并且邮件通知，可以多人打卡鸭
+自动进行每天i南航校外打卡，并且邮件通知，可以多人打卡
 
 **免责声明: 此项目只可以用于技术学习讨论，请勿用于实际用于打卡，如果出现信息错误等后果概不负责**
 
@@ -20,7 +21,7 @@
 
 如使用Yum安装包管理器，可以使用如下命令
 ``` sh
-sudo yum install python3 python3-pip git screen vim -y
+sudo yum install python3 python3-pip git vim -y
 ```
 然后使用pip3安装requests库
 ``` sh
@@ -33,7 +34,7 @@ sudo pip3 install requests
 
 例如
 ``` sh
-git clone https://github.com/zombie12138/inuaa --depth=1
+git clone https://github.com/qsdaqsdafqr/inuaa.git --depth=1
 ```
 
 ### Step 2
@@ -85,13 +86,11 @@ vim config.json
 
 ## Step 3
 
-新建screen，后台运行程序
+后台运行程序
 
 ``` bash
-screen -S inuaa
-python3 sign.py
+nohup python3 sign.py >out.txt 2>&1 &
 ```
 
 之后只要主机一直开机就会每天打卡辣。
 
-如果想要查看输出信息可以 `screen -r inuaa`查看，快捷键`Ctrl+A+D`退出Screen(仍在后台运行)
